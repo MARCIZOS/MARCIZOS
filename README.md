@@ -139,22 +139,54 @@ A hand-built portfolio site — no template, no framework. Project write-ups, ex
 
 ---
 
+## How I think about systems
+
+The architecture behind the log analyzer — a Redis Streams pipeline that scales by adding consumers, not by scaling up:
+
+```mermaid
+flowchart LR
+    A[Services emit logs] --> B[(Redis Streams)]
+    B --> C1[Worker 1]
+    B --> C2[Worker 2]
+    B --> C3[Worker N]
+    C1 --> D[Parse and classify<br/>root cause]
+    C2 --> D
+    C3 --> D
+    D --> E[(PostgreSQL<br/>incident store)]
+    D --> F[FAISS<br/>vector index]
+    F --> G{Seen this<br/>failure before?}
+    G -->|yes| H[Surface the past fix]
+    G -->|no| I[Flag as new anomaly]
+    E --> J[Live health dashboard]
+```
+
+Add a consumer, throughput goes up. No coordinator to fall over, no single worker to bottleneck on.
+
+---
+
 ## By the numbers
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=MARCIZOS&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&bg_color=0D1117" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MARCIZOS&layout=compact&langs_count=8&hide_border=true&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117" alt="Top languages" />
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=MARCIZOS&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF9900&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Streak" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=MARCIZOS&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MARCIZOS&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=FFFFFF&area=true&hide_border=true" alt="Contribution graph" width="100%" />
+<img src="https://img.shields.io/badge/LeetCode-540%2B_solved-FFA116?style=for-the-badge&labelColor=0D1117" alt="LeetCode solved" />
+<img src="https://img.shields.io/badge/Contest_rating-1938_Knight-FF6B00?style=for-the-badge&labelColor=0D1117" alt="Contest rating" />
+<img src="https://img.shields.io/badge/CGPA-8.66-58A6FF?style=for-the-badge&labelColor=0D1117" alt="CGPA" />
+<img src="https://img.shields.io/badge/HackO'Clock-Top_10_of_120%2B-1F6FEB?style=for-the-badge&labelColor=0D1117" alt="Hackathon" />
 
 </div>
 
----
+| | |
+|---|---|
+| **59%** | reduction in simulated portfolio drawdown, via FAISS-based diversification |
+| **6 jobs/sec** | sustained at 100% completion across 3 concurrent Dockerized workers |
+| **540+** | DSA problems solved, LeetCode Knight at 1938 |
+| **Top 10** | of 120+ teams at HackO'Clock, a national-level hackathon |
+
+<div align="center">
+
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=MARCIZOS&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF9900&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Contribution streak" />
+
+</div>
 
 ## Let's talk
 
