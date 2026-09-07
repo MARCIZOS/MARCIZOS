@@ -1,8 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=200&section=header&text=Kush%20Agarwal&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Backend%20Engineer%20%C2%B7%20Python%20%C2%B7%20FastAPI%20%C2%B7%20Redis%20%C2%B7%20Docker%20%C2%B7%20AWS&descAlignY=56&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=200&section=header&text=Kush%20Agarwal&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Backend%20Engineer%20%C2%B7%20Python%20%C2%B7%20FastAPI%20%C2%B7%20Redis%20%C2%B7%20Docker%20%C2%B7%20AWS&descAlignY=56&descSize=16" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=I+build+backend+systems+that+scale+horizontally.;Redis+Streams+%E2%80%A2+FastAPI+%E2%80%A2+Docker+%E2%80%A2+PostgreSQL+%E2%80%A2+AWS;540%2B+DSA+problems+%E2%80%A2+LeetCode+Knight+(1938);Open+to+Software+Engineering+internships." alt="What I do" />
+<h2>I build backend systems that scale horizontally.</h2>
+
+<b>Redis Streams &nbsp;·&nbsp; FastAPI &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Docker &nbsp;·&nbsp; AWS</b>
+
+540+ DSA problems &nbsp;·&nbsp; LeetCode Knight (1938) &nbsp;·&nbsp; Open to Software Engineering internships
 
 <br/>
 
