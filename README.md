@@ -182,12 +182,6 @@ Add a consumer, throughput goes up. No coordinator to fall over, no single worke
 | **540+** | DSA problems solved, LeetCode Knight at 1938 |
 | **Top 10** | of 120+ teams at HackO'Clock, a national-level hackathon |
 
-<div align="center">
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=MARCIZOS&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF9900&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Contribution streak" />
-
-</div>
-
 ## Let's talk
 
 I'm looking for a **Software Engineering / Backend internship** where I can work on systems that have real load behind them. If that's something you're hiring for, I'd like to hear from you.
