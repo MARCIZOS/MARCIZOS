@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=200&section=header&text=Kush%20Agarwal&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Backend%20Engineer%20%C2%B7%20Python%20%C2%B7%20FastAPI%20%C2%B7%20Redis%20%C2%B7%20Docker%20%C2%B7%20AWS&descAlignY=56&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=140&section=header" width="100%" />
+
+# Kush Agarwal
 
 <h2>I build backend systems that scale horizontally.</h2>
 
