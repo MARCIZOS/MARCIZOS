@@ -103,3 +103,29 @@ export async function leetcodeStats(user) {
     return { ok: false, error: String(e.message || e) };
   }
 }
+
+/** Contribution calendar from the public profile fragment (no token needed).
+ *  Returns weeks[week][weekday] = { date, level } with level 0-4. */
+export async function contributionCalendar(user) {
+  try {
+    const r = await fetch(`https://github.com/users/${user}/contributions`, {
+      headers: { "User-Agent": "profile-builder", Accept: "text/html" },
+    });
+    if (!r.ok) throw new Error(`contributions ${r.status}`);
+    const html = await r.text();
+    const re = /data-date="(\d{4}-\d{2}-\d{2})"[^>]*id="contribution-day-component-(\d+)-(\d+)"[^>]*data-level="(\d+)"/g;
+    const weeks = [];
+    let m;
+    while ((m = re.exec(html))) {
+      const [, date, row, col, level] = m;
+      const w = Number(col);
+      if (!weeks[w]) weeks[w] = [];
+      weeks[w][Number(row)] = { date, level: Number(level) };
+    }
+    return weeks
+      .filter(Boolean)
+      .map((wk) => Array.from({ length: 7 }, (_, i) => wk[i] || { date: "", level: 0 }));
+  } catch {
+    return [];
+  }
+}
