@@ -35,7 +35,7 @@ class KushAgarwal:
     currently  = "Looking for a Software Engineering internship"
 ```
 
-- Built a **DAG scheduling engine** that propagates a schedule slip through 1,000 tasks and 3,000 dependency links in **under 1 ms**, covered by 61 tests including property-based ones
+- Won the **Grand Prize at Contata NCR Hackathon 2026** for a DAG scheduling engine that propagates a schedule slip through 1,000 tasks in **under 1 ms**, at 94% test coverage across 600 property-based graph cases
 - Engineered a **Redis Streams** log-ingestion pipeline that scales horizontally across consumer groups
 - Cut simulated portfolio drawdown by **59%** with a FAISS-powered recommendation engine
 - Hit **100% job completion at 6 jobs/sec** across 3 concurrent Dockerized workers
@@ -88,11 +88,12 @@ class KushAgarwal:
 <td width="50%" valign="top">
 
 ### TaskFlow Pro — DAG Scheduling Engine
+🏆 **Grand Prize — Contata NCR Hackathon 2026**
 `Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `Docker`
 
 A Kanban board that understands dependencies. A pure graph engine, isolated from the web and database layers, derives Blocked/Ready state from the DAG on every read, rejects links that would create a cycle, and propagates schedule slips downstream without double-counting shared paths. Critical-path detection highlights the zero-slack chain. PostgreSQL advisory locks handle multi-process concurrency.
 
-**→ Propagates a delay through 1,000 tasks and 3,000 links in under 1 ms — 61 tests, including property-based tests over hundreds of generated projects.**
+**→ Propagates a delay through 1,000 tasks in under 1 ms. 61 backend tests at 94% coverage, with 600 randomly generated graphs checked by property-based tests.**
 
 [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/taskflow-pro)
 
@@ -207,6 +208,7 @@ Add a consumer, throughput goes up. No coordinator to fall over, no single worke
 | **59%** | reduction in simulated portfolio drawdown, via FAISS-based diversification |
 | **6 jobs/sec** | sustained at 100% completion across 3 concurrent Dockerized workers |
 | **540+** | DSA problems solved, LeetCode Knight at 1938 |
+| **Grand Prize** | Contata NCR Hackathon 2026 (PS-01) — TaskFlow Pro |
 | **Top 10** | of 120+ teams at HackO'Clock, a national-level hackathon |
 
 ## Let's talk
