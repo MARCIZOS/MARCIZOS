@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { githubStats, leetcodeStats } from "./fetch.mjs";
 import { hero } from "./svg/hero.mjs";
 import { cards, scoreboard } from "./svg/cards.mjs";
+import { trace } from "./svg/trace.mjs";
 import { renderReadme } from "./readme.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -57,7 +58,7 @@ if (!OFFLINE) {
 
 mkdirSync(ASSETS, { recursive: true });
 
-const out = [hero(data), scoreboard(data), ...cards(data)];
+const out = [hero(data), scoreboard(data), trace(data), ...cards(data)];
 for (const f of out) {
   writeFileSync(join(ASSETS, f.name), f.svg);
   console.log(`  ${f.name.padEnd(22)} ${f.w}x${f.h}`);
