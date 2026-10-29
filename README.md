@@ -36,6 +36,14 @@
 
 </div>
 
+## The year, replayed
+
+<div align="center">
+
+<img src="assets/trace.svg" alt="Contribution trace: seven weekday lanes, one column per week, a playhead sweeping the year" width="100%"/>
+
+</div>
+
 ## How I think about systems
 
 The architecture behind the log analyzer — a Redis Streams pipeline that scales by adding consumers, not by scaling up:
