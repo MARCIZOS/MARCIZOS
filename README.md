@@ -35,6 +35,7 @@ class KushAgarwal:
     currently  = "Looking for a Software Engineering internship"
 ```
 
+- Built a **DAG scheduling engine** that propagates a schedule slip through 1,000 tasks and 3,000 dependency links in **under 1 ms**, covered by 61 tests including property-based ones
 - Engineered a **Redis Streams** log-ingestion pipeline that scales horizontally across consumer groups
 - Cut simulated portfolio drawdown by **59%** with a FAISS-powered recommendation engine
 - Hit **100% job completion at 6 jobs/sec** across 3 concurrent Dockerized workers
@@ -86,6 +87,18 @@ class KushAgarwal:
 <tr>
 <td width="50%" valign="top">
 
+### TaskFlow Pro — DAG Scheduling Engine
+`Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `Docker`
+
+A Kanban board that understands dependencies. A pure graph engine, isolated from the web and database layers, derives Blocked/Ready state from the DAG on every read, rejects links that would create a cycle, and propagates schedule slips downstream without double-counting shared paths. Critical-path detection highlights the zero-slack chain. PostgreSQL advisory locks handle multi-process concurrency.
+
+**→ Propagates a delay through 1,000 tasks and 3,000 links in under 1 ms — 61 tests, including property-based tests over hundreds of generated projects.**
+
+[![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/taskflow-pro)
+
+</td>
+<td width="50%" valign="top">
+
 ### AI Log Analyzer & RCA Tool
 `Python` `FastAPI` `Redis Streams` `PostgreSQL` `FAISS` `Docker`
 
@@ -96,6 +109,8 @@ A Dockerized log-ingestion pipeline built on Redis Streams that scales horizonta
 [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/log_analyzer)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### ARAIA — Portfolio Diversification
@@ -108,8 +123,6 @@ A full-stack risk-analytics platform that stress-tests portfolios against macroe
 [![Live demo](https://img.shields.io/badge/Live_demo-0D9488?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-diversification-ruby.vercel.app) [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/portfolio_diversification)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### HealGrid — Telehealth Platform
@@ -122,6 +135,20 @@ A telehealth app with Firebase auth and Firestore, peer-to-peer WebRTC video con
 [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/heal-grid)
 
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### FairFix — Service Bill Auditor
+`Python` `Nemotron` `Nebius` `OCR`
+
+Reads a vehicle service bill and estimate line by line, checks each item against the official service schedule, comparable part prices and recall data, and drafts a neutral question for the service advisor. Every result shows the rule and the evidence behind it.
+
+**→ When it cannot verify a line, it says so instead of guessing.**
+
+[![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/fairfix)
+
+</td>
 <td width="50%" valign="top">
 
 ### AI Exam Generator
@@ -132,32 +159,6 @@ Generates and grades exam papers from uploaded source material. OCR pulls text o
 **→ Turns a scanned syllabus into a graded question paper end to end.**
 
 [![Live demo](https://img.shields.io/badge/Live_demo-0D9488?style=flat-square&logo=vercel&logoColor=white)](https://ai-exam-generator-plum.vercel.app) [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/ai_exam_generator)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### World Master
-`JavaScript` `Serverless` `SQL` `Vercel`
-
-A browser-based strategy game about exploration and competitive world-building, with account registration and login backed by serverless API routes and a SQL schema.
-
-**→ A side project for the fun of it — and a reason to design a schema and an auth flow from scratch.**
-
-[![Live demo](https://img.shields.io/badge/Live_demo-0D9488?style=flat-square&logo=vercel&logoColor=white)](https://world-master-seven.vercel.app) [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/world_master)
-
-</td>
-<td width="50%" valign="top">
-
-### Developer Portfolio
-`HTML` `CSS` `JavaScript` `Vercel`
-
-A hand-built portfolio site — no template, no framework. Project write-ups, experience, and contact.
-
-**→ Everything on it is written by hand, including the layout.**
-
-[![Live demo](https://img.shields.io/badge/Live_demo-0D9488?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-marcizos-projects.vercel.app) [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/portfolio)
 
 </td>
 </tr>
