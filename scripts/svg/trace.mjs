@@ -34,17 +34,16 @@ export function trace(d) {
   // still renders rather than collapsing.
   const grid = hasData
     ? weeks
-    : Array.from({ length: 53 }, () => Array.from({ length: 7 }, () => ({ date: "", count: 0 })));
+    : Array.from({ length: 53 }, () => Array.from({ length: 7 }, () => ({ date: "", level: 0 })));
 
-  const counts = grid.flat().map((x) => x.count);
-  const max = Math.max(1, ...counts);
-  const total = counts.reduce((a, b) => a + b, 0);
+  const levels = grid.flat().map((x) => x.level || 0);
+  const active = levels.filter((l) => l > 0).length;
+  const total = (d.github && d.github.contributions) ?? null;
 
-  let best = 0, run = 0, bestDay = { count: 0, date: "" };
+  let best = 0, run = 0;
   for (const day of grid.flat()) {
-    run = day.count > 0 ? run + 1 : 0;
+    run = (day.level || 0) > 0 ? run + 1 : 0;
     if (run > best) best = run;
-    if (day.count > bestDay.count) bestDay = day;
   }
 
   const nWeeks = grid.length;
@@ -58,7 +57,7 @@ export function trace(d) {
       const cells = week
         .map((day, i) => {
           const y = Y0 + i * colW;
-          const b = bucket(day.count, max);
+          const b = Math.min(4, Math.max(0, day.level || 0));
           return `<rect x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="3" fill="${BUCKET[b]}"/>`;
         })
         .join("");
@@ -104,9 +103,9 @@ export function trace(d) {
 ${text(x, 306, label, { size: 9.5, fill: C.dim, spacing: 1.1 })}`;
 
   const readout = hasData
-    ? `${stat(X0, String(total), "CONTRIBUTIONS, 12 MONTHS")}
+    ? `${stat(X0, total == null ? "\u2014" : String(total), "CONTRIBUTIONS, 12 MONTHS")}
 ${stat(X0 + 250, String(best), "LONGEST STREAK, DAYS")}
-${stat(X0 + 450, String(bestDay.count), "BUSIEST DAY")}`
+${stat(X0 + 450, String(active), "ACTIVE DAYS")}`
     : text(X0, 292, "calendar unavailable on this run", { size: 11, fill: C.dim });
 
   const legend = `${text(W - 196, Y0 + LANES * colW - 2, "less", { size: 9, fill: C.dim })}
