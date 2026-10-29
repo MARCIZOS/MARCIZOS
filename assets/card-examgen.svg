@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="286" viewBox="0 0 580 286" role="img">
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#1F2A38" stroke-width="1" opacity="0.35"/>
+  </pattern>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.14"/>
+    <stop offset="60%" stop-color="#2DD4A0" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+  </linearGradient>
+  
+</defs>
+<rect width="580" height="286" rx="14" fill="#0D1117"/>
+<rect width="580" height="286" rx="14" fill="url(#grid)"/>
+<rect width="580" height="286" rx="14" fill="url(#fade)"/>
+<rect x="0.5" y="0.5" width="579" height="285" rx="14" fill="none" stroke="#1F2A38"/>
+
+<rect x="24" y="18" width="73.4" height="20" rx="5" fill="#0E2A22" stroke="#1C4D3E" stroke-width="1"/>
+<text x="60.7" y="32" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#2DD4A0" font-weight="700" text-anchor="middle" letter-spacing="1.2" >OCR + LLM</text>
+<text x="556" y="32" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#4A5B6E" font-weight="400" text-anchor="end" >Node.js  ·  Express  ·  OCR  ·  Groq</text>
+
+<text x="24" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#E6EDF3" font-weight="700" >AI Exam Generator</text>
+<text x="24" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7D8DA1" font-weight="400" >Turns a scanned page into a graded question paper: OCR extraction,</text>
+<text x="24" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7D8DA1" font-weight="400" >question drafting, automated evaluation.</text>
+
+
+<rect x="24" y="112" width="532" height="150" rx="10" fill="#070D0B" stroke="#17222E" stroke-width="1"/>
+<g transform="translate(24,112)">
+<rect x="16" y="16" width="108" height="118" rx="6" fill="#0A1016" stroke="#17222E" stroke-width="1"/>
+<rect x="28" y="32" width="70" height="5" rx="2.5" fill="#1C2B3A"/><rect x="28" y="48" width="84" height="5" rx="2.5" fill="#1C2B3A"/><rect x="28" y="64" width="84" height="5" rx="2.5" fill="#1C2B3A"/><rect x="28" y="80" width="70" height="5" rx="2.5" fill="#1C2B3A"/><rect x="28" y="96" width="84" height="5" rx="2.5" fill="#1C2B3A"/><rect x="28" y="112" width="84" height="5" rx="2.5" fill="#1C2B3A"/>
+<rect x="18" y="18" width="104" height="3" fill="#2DD4A0" opacity="0.85">
+  <animate attributeName="y" values="18;128;128" keyTimes="0;0.3;1" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.85;0.85;0;0" keyTimes="0;0.3;0.38;1" dur="6s" repeatCount="indefinite"/>
+</rect>
+<text x="16" y="146" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#4A5B6E" font-weight="400" >scanned page</text><path d="M132 72 H158" stroke="#223447" stroke-width="1.4"/>
+<path d="M153 68 L159 72 L153 76 Z" fill="#223447"/><g opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.38;0.5;1" dur="6s" repeatCount="indefinite"/>
+  <rect x="166" y="28" width="180" height="60" rx="7" fill="#111822" stroke="#1E3446" stroke-width="1"/>
+  <text x="178" y="48" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#E6EDF3" font-weight="400" >Q. Define idempotency</text>
+  <text x="178" y="64" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#E6EDF3" font-weight="400" >and give an example.</text>
+  <text x="178" y="80" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#4A5B6E" font-weight="400" >generated · 2 marks</text>
+</g><path d="M352 72 H378" stroke="#223447" stroke-width="1.4"/>
+<path d="M373 68 L379 72 L373 76 Z" fill="#223447"/><g opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.62;0.74;1" dur="6s" repeatCount="indefinite"/>
+  <rect x="388" y="44" width="120" height="56" rx="7" fill="#0E2A22" stroke="#1C4D3E" stroke-width="1"/>
+  <text x="448" y="72" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#2DD4A0" font-weight="700" text-anchor="middle" >1.5 / 2</text>
+  <text x="448" y="90" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#4A5B6E" font-weight="400" text-anchor="middle" >auto-evaluated</text>
+</g>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.45;0.6;1" dur="6s" repeatCount="indefinite"/>
+  <rect x="318" y="120" width="198" height="20" rx="5" fill="#11202B" stroke="#1E3446" stroke-width="1"/>
+  <text x="417" y="134" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#2DD4A0" font-weight="600" text-anchor="middle" >page → question → score</text>
+</g>
+</g>
+</svg>

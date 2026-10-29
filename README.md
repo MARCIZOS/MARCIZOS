@@ -16,11 +16,15 @@
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/MARCIZOS/taskflow-pro"><img src="assets/card-taskflow.svg" alt="TaskFlow Pro" width="100%"/></a></td>
-<td width="50%"><a href="https://github.com/MARCIZOS/log_analyzer"><img src="assets/card-logs.svg" alt="AI Log Analyzer" width="100%"/></a></td>
+<td width="50%"><a href="https://github.com/MARCIZOS/portfolio_diversification"><img src="assets/card-araia.svg" alt="ARAIA" width="100%"/></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/MARCIZOS/portfolio_diversification"><img src="assets/card-araia.svg" alt="ARAIA" width="100%"/></a></td>
-<td width="50%"><a href="https://github.com/MARCIZOS/heal-grid"><img src="assets/card-healgrid.svg" alt="HealGrid" width="100%"/></a></td>
+<td width="50%"><a href="https://github.com/MARCIZOS/log_analyzer"><img src="assets/card-logs.svg" alt="Log Analyzer & RCA" width="100%"/></a></td>
+<td width="50%"><a href="https://github.com/MARCIZOS/fairfix"><img src="assets/card-fairfix.svg" alt="FairFix" width="100%"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/MARCIZOS/ai_exam_generator"><img src="assets/card-examgen.svg" alt="AI Exam Generator" width="100%"/></a></td>
+<td width="50%"><a href="https://github.com/MARCIZOS/Rank-Radar"><img src="assets/card-rankradar.svg" alt="Rank Radar" width="100%"/></a></td>
 </tr>
 </table>
 

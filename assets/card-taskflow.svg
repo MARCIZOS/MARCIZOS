@@ -20,8 +20,8 @@
 <text x="556" y="32" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#4A5B6E" font-weight="400" text-anchor="end" >Python  ·  FastAPI  ·  React  ·  PostgreSQL</text>
 
 <text x="24" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#E6EDF3" font-weight="700" >TaskFlow Pro</text>
-<text x="24" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7D8DA1" font-weight="400" >Kanban whose scheduling engine understands dependencies. Cycle</text>
-<text x="24" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7D8DA1" font-weight="400" >rejection, delay propagation without double-counting, critical</text>
+<text x="24" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7D8DA1" font-weight="400" >Kanban whose scheduling engine understands dependencies: cycle</text>
+<text x="24" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7D8DA1" font-weight="400" >rejection, delay propagation, critical path.</text>
 
 
 <rect x="24" y="112" width="532" height="150" rx="10" fill="#070D0B" stroke="#17222E" stroke-width="1"/>
