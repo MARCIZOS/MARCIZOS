@@ -33,6 +33,7 @@ if (!OFFLINE) {
       stars: gh.stars,
       contributions: gh.contributions ?? seed.github.contributions,
       languages: gh.languages.length ? gh.languages : seed.github.languages,
+      calendar: gh.calendar && gh.calendar.length ? gh.calendar : [],
     };
     data.sources.github = "live";
   } catch (e) {
