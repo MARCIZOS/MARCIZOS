@@ -1,34 +1,23 @@
 import { C, MONO, SANS, frame, text, box, dot, wrap } from "./kit.mjs";
+import { DEMOS } from "./demos.mjs";
 
-const W = 580, H = 258;
+const W = 580, H = 286;
 
 export function card(p) {
   const badgeW = 14 + p.badge.length * 6.6;
-  const lines = wrap(p.blurb, 62, 3);
+  const lines = wrap(p.blurb, 66, 2);
+  const stack = p.stack.join("  ·  ");
+  const demo = DEMOS[p.slug] ? DEMOS[p.slug]() : "";
+
   const inner = `
-${box(24, 22, badgeW, 22, { fill: "#0E2A22", stroke: "#1C4D3E", r: 6 })}
-${text(24 + badgeW / 2, 37, p.badge, { size: 9.5, weight: 700, fill: C.accent2, anchor: "middle", spacing: 1.3 })}
-${text(24, 78, p.name, { size: 24, weight: 700, fill: C.text, font: SANS })}
+${box(24, 18, badgeW, 20, { fill: "#0E2A22", stroke: "#1C4D3E", r: 5 })}
+${text(24 + badgeW / 2, 32, p.badge, { size: 9, weight: 700, fill: C.accent2, anchor: "middle", spacing: 1.2 })}
+${text(556, 32, stack, { size: 9, fill: C.dim, anchor: "end" })}
 
-${lines.map((l, i) => text(24, 108 + i * 18, l, { size: 12, fill: C.muted, font: SANS })).join("\n")}
+${text(24, 62, p.name, { size: 22, weight: 700, fill: C.text, font: SANS })}
+${lines.map((l, i) => text(24, 82 + i * 16, l, { size: 11, fill: C.muted, font: SANS })).join("\n")}
 
-<path d="M24 172 H556" stroke="${C.line}" stroke-width="1"/>
-${dot(30, 194, C.warn)}
-${text(44, 198, p.metric, { size: 12.5, weight: 700, fill: C.text })}
-${text(24, 218, p.proof, { size: 10.5, fill: C.dim })}
-
-${(() => {
-  let x = 24;
-  return p.stack
-    .map((s) => {
-      const w = 12 + s.length * 6.4;
-      const el = `${box(x, 228, w, 20, { fill: C.panel2, r: 5 })}
-${text(x + w / 2, 242, s, { size: 9.5, fill: C.muted, anchor: "middle" })}`;
-      x += w + 8;
-      return el;
-    })
-    .join("\n");
-})()}`;
+${demo}`;
   return { name: `card-${p.slug}.svg`, w: W, h: H, svg: frame(W, H, inner) };
 }
 
@@ -43,7 +32,9 @@ export function scoreboard(d) {
 
   const bar = (x, y, pct, color, width = 420) =>
     `${box(x, y, width, 8, { fill: C.panel2, r: 4, stroke: C.panel2 })}
-<rect x="${x}" y="${y}" width="${Math.max(4, (width * pct) / 100)}" height="8" rx="4" fill="${color}"/>`;
+<rect x="${x}" y="${y}" width="4" height="8" rx="4" fill="${color}">
+  <animate attributeName="width" values="4;${Math.max(4, (width * pct) / 100)}" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+</rect>`;
 
   const langs = (gh.languages || []).slice(0, 5);
   const palette = [C.accent, C.accent2, C.warn, "#A371F7", "#F778BA"];
