@@ -121,7 +121,7 @@ A full-stack risk-analytics platform that stress-tests portfolios against macroe
 
 **→ Reduced simulated portfolio drawdown by 59%.**
 
-[![Live demo](https://img.shields.io/badge/Live_demo-0D9488?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-diversification-ruby.vercel.app) [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/portfolio_diversification)
+[![Live demo](https://img.shields.io/badge/Live_demo-0D9488?style=flat-square&logo=vercel&logoColor=white)](https://d25kw1rc4w7fmu.cloudfront.net/) [![View repo](https://img.shields.io/badge/View_repo-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/MARCIZOS/portfolio_diversification)
 
 </td>
 <td width="50%" valign="top">
