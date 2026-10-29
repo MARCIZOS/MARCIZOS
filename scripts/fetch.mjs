@@ -40,10 +40,11 @@ export async function githubStats(user) {
     .map(([name, bytes]) => ({ name, pct: +((bytes / total) * 100).toFixed(1) }));
 
   let contributions = null;
+  let calendar = [];
   if (process.env.GITHUB_TOKEN) {
     try {
       const q = {
-        query: `query($u:String!){user(login:$u){contributionsCollection{contributionCalendar{totalContributions}}}}`,
+        query: `query($u:String!){user(login:$u){contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}`,
         variables: { u: user },
       };
       const g = await json(`${GH}/graphql`, {
@@ -51,8 +52,11 @@ export async function githubStats(user) {
         headers: { ...headers(), "Content-Type": "application/json" },
         body: JSON.stringify(q),
       });
-      contributions =
-        g?.data?.user?.contributionsCollection?.contributionCalendar?.totalContributions ?? null;
+      const cal = g?.data?.user?.contributionsCollection?.contributionCalendar;
+      contributions = cal?.totalContributions ?? null;
+      calendar = (cal?.weeks || []).map((w) =>
+        w.contributionDays.map((d) => ({ date: d.date, count: d.contributionCount }))
+      );
     } catch {}
   }
 
@@ -63,6 +67,7 @@ export async function githubStats(user) {
     stars,
     languages,
     contributions,
+    calendar,
   };
 }
 
