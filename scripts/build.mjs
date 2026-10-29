@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { githubStats, leetcodeStats } from "./fetch.mjs";
+import { githubStats, leetcodeStats, contributionCalendar } from "./fetch.mjs";
 import { hero } from "./svg/hero.mjs";
 import { cards, scoreboard } from "./svg/cards.mjs";
 import { trace } from "./svg/trace.mjs";
@@ -33,7 +33,7 @@ if (!OFFLINE) {
       stars: gh.stars,
       contributions: gh.contributions ?? seed.github.contributions,
       languages: gh.languages.length ? gh.languages : seed.github.languages,
-      calendar: gh.calendar && gh.calendar.length ? gh.calendar : [],
+      calendar: await contributionCalendar(GH_USER),
     };
     data.sources.github = "live";
   } catch (e) {
