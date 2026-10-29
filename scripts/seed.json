@@ -6,19 +6,56 @@
     "comment": "// correctness first, then throughput"
   },
   "links": [
-    { "label": "Portfolio", "url": "https://portfolio-marcizos-projects.vercel.app" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/kushagarwal0805/" },
-    { "label": "LeetCode", "url": "https://leetcode.com/u/kush0809/" },
-    { "label": "Email", "url": "mailto:kushagarwal0805@gmail.com" }
+    {
+      "label": "Portfolio",
+      "url": "https://portfolio-marcizos-projects.vercel.app"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kushagarwal0805/"
+    },
+    {
+      "label": "LeetCode",
+      "url": "https://leetcode.com/u/kush0809/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:kushagarwal0805@gmail.com"
+    }
   ],
-  "leetcode": { "solved": 540, "rating": 1938, "easy": null, "medium": null, "hard": null, "contests": null },
-  "github": { "publicRepos": 17, "stars": 0, "contributions": null,
+  "leetcode": {
+    "solved": 540,
+    "rating": 1938,
+    "easy": null,
+    "medium": null,
+    "hard": null,
+    "contests": null
+  },
+  "github": {
+    "publicRepos": 17,
+    "stars": 0,
+    "contributions": null,
     "languages": [
-      { "name": "Python", "pct": 41.2 },
-      { "name": "TypeScript", "pct": 21.0 },
-      { "name": "JavaScript", "pct": 18.4 },
-      { "name": "CSS", "pct": 11.1 },
-      { "name": "HTML", "pct": 8.3 }
+      {
+        "name": "Python",
+        "pct": 41.2
+      },
+      {
+        "name": "TypeScript",
+        "pct": 21.0
+      },
+      {
+        "name": "JavaScript",
+        "pct": 18.4
+      },
+      {
+        "name": "CSS",
+        "pct": 11.1
+      },
+      {
+        "name": "HTML",
+        "pct": 8.3
+      }
     ]
   },
   "projects": [
@@ -26,41 +63,78 @@
       "slug": "taskflow",
       "name": "TaskFlow Pro",
       "badge": "GRAND PRIZE",
-      "blurb": "Kanban whose scheduling engine understands dependencies. Cycle rejection, delay propagation without double-counting, critical path.",
-      "metric": "1,000 tasks propagate in < 1 ms",
-      "proof": "61 tests · 94% coverage · 600 property-based graphs",
-      "stack": ["Python", "FastAPI", "React", "PostgreSQL"],
+      "blurb": "Kanban whose scheduling engine understands dependencies: cycle rejection, delay propagation, critical path.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
       "repo": "taskflow-pro"
-    },
-    {
-      "slug": "logs",
-      "name": "AI Log Analyzer",
-      "badge": "STREAMS",
-      "blurb": "Redis Streams ingestion that scales across consumer groups. Root-cause classification, FAISS similarity over past incidents.",
-      "metric": "Scales by adding a consumer",
-      "proof": "Dockerised workers · PostgreSQL incident store",
-      "stack": ["Python", "FastAPI", "Redis", "FAISS"],
-      "repo": "log_analyzer"
     },
     {
       "slug": "araia",
       "name": "ARAIA",
       "badge": "LIVE ON AWS",
-      "blurb": "Re-prices a portfolio inside a macroeconomic shock and measures how much diversification is real.",
-      "metric": "59% lower simulated stressed drawdown",
-      "proof": "11 services · deterministic maths · LLM explains only",
-      "stack": ["Python", "FastAPI", "React", "AWS"],
+      "blurb": "Re-prices a portfolio inside a macroeconomic shock and measures how much of the diversification is real.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "FAISS",
+        "AWS"
+      ],
       "repo": "portfolio_diversification"
     },
     {
-      "slug": "healgrid",
-      "name": "HealGrid",
-      "badge": "WEBRTC",
-      "blurb": "Telehealth platform with peer-to-peer video consultations, Firebase auth and a multi-language interface.",
-      "metric": "Consultation in-browser, no plugin",
-      "proof": "React · TypeScript · Firestore · Render API",
-      "stack": ["React", "TypeScript", "Firebase", "WebRTC"],
-      "repo": "heal-grid"
+      "slug": "logs",
+      "name": "Log Analyzer & RCA",
+      "badge": "REDIS STREAMS",
+      "blurb": "Ingestion that scales across consumer groups, classifies root causes and finds the matching past incident.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "FAISS"
+      ],
+      "repo": "log_analyzer"
+    },
+    {
+      "slug": "fairfix",
+      "name": "FairFix",
+      "badge": "NVIDIA x NEBIUS",
+      "blurb": "Reads a vehicle service bill line by line and checks each item against the official schedule and part prices.",
+      "stack": [
+        "Python",
+        "Nemotron",
+        "Nebius",
+        "OCR"
+      ],
+      "repo": "fairfix"
+    },
+    {
+      "slug": "examgen",
+      "name": "AI Exam Generator",
+      "badge": "OCR + LLM",
+      "blurb": "Turns a scanned page into a graded question paper: OCR extraction, question drafting, automated evaluation.",
+      "stack": [
+        "Node.js",
+        "Express",
+        "OCR",
+        "Groq"
+      ],
+      "repo": "ai_exam_generator"
+    },
+    {
+      "slug": "rankradar",
+      "name": "Rank Radar",
+      "badge": "LIVE DEMO",
+      "blurb": "Live-match companion for fantasy cricket: follow a match ball by ball and watch it move your team's rank.",
+      "stack": [
+        "JavaScript",
+        "CSS",
+        "Netlify"
+      ],
+      "repo": "Rank-Radar"
     }
   ]
 }
