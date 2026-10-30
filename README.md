@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg" alt="KUSH AGARWAL — Backend & Distributed Systems" width="100%"/>
 
-<a href="https://portfolio-marcizos-projects.vercel.app"><img src="assets/link-portfolio.svg" alt="Portfolio" height="60"/></a>
+<a href="https://portfolio-seven-topaz-6oy3w9tofj.vercel.app/"><img src="assets/link-portfolio.svg" alt="Portfolio" height="60"/></a>
 <a href="https://www.linkedin.com/in/kushagarwal0805/"><img src="assets/link-linkedin.svg" alt="LinkedIn" height="60"/></a>
 <a href="https://leetcode.com/u/kush0809/"><img src="assets/link-leetcode.svg" alt="LeetCode" height="60"/></a>
 <a href="mailto:kushagarwal0805@gmail.com"><img src="assets/link-email.svg" alt="Email" height="60"/></a>
