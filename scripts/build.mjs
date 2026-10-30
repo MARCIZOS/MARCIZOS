@@ -2,10 +2,12 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { githubStats, leetcodeStats, contributionCalendar } from "./fetch.mjs";
+import { githubStats, leetcodeStats } from "./fetch.mjs";
 import { hero } from "./svg/hero.mjs";
 import { cards, scoreboard } from "./svg/cards.mjs";
 import { trace } from "./svg/trace.mjs";
+import { links } from "./svg/links.mjs";
+import { numbers } from "./svg/numbers.mjs";
 import { renderReadme } from "./readme.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -33,7 +35,6 @@ if (!OFFLINE) {
       stars: gh.stars,
       contributions: gh.contributions ?? seed.github.contributions,
       languages: gh.languages.length ? gh.languages : seed.github.languages,
-      calendar: await contributionCalendar(GH_USER),
     };
     data.sources.github = "live";
   } catch (e) {
@@ -59,7 +60,7 @@ if (!OFFLINE) {
 
 mkdirSync(ASSETS, { recursive: true });
 
-const out = [hero(data), scoreboard(data), trace(data), ...cards(data)];
+const out = [hero(data), scoreboard(data), trace(data), numbers(data), ...links(data), ...cards(data)];
 for (const f of out) {
   writeFileSync(join(ASSETS, f.name), f.svg);
   console.log(`  ${f.name.padEnd(22)} ${f.w}x${f.h}`);
