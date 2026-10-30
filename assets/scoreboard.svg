@@ -31,31 +31,31 @@
 <text x="620" y="133" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#E6EDF3" font-weight="400" >Python</text>
 <rect x="712" y="126" width="380" height="8" rx="4" fill="#0B1119" stroke="#0B1119" stroke-width="1"/>
 <rect x="712" y="126" width="4" height="8" rx="4" fill="#58A6FF">
-  <animate attributeName="width" values="4;207.48" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  <animate attributeName="width" values="4;203.3" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
 </rect>
-<text x="1132" y="133" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >54.6%</text>
+<text x="1132" y="133" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >53.5%</text>
 <text x="620" y="159" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#E6EDF3" font-weight="400" >JavaScript</text>
 <rect x="712" y="152" width="380" height="8" rx="4" fill="#0B1119" stroke="#0B1119" stroke-width="1"/>
 <rect x="712" y="152" width="4" height="8" rx="4" fill="#2DD4A0">
-  <animate attributeName="width" values="4;63.46" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  <animate attributeName="width" values="4;75.61999999999999" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
 </rect>
-<text x="1132" y="159" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >16.7%</text>
+<text x="1132" y="159" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >19.9%</text>
 <text x="620" y="185" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#E6EDF3" font-weight="400" >TypeScript</text>
 <rect x="712" y="178" width="380" height="8" rx="4" fill="#0B1119" stroke="#0B1119" stroke-width="1"/>
 <rect x="712" y="178" width="4" height="8" rx="4" fill="#F0A33E">
-  <animate attributeName="width" values="4;50.16" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  <animate attributeName="width" values="4;49.02" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
 </rect>
-<text x="1132" y="185" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >13.2%</text>
+<text x="1132" y="185" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >12.9%</text>
 <text x="620" y="211" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#E6EDF3" font-weight="400" >CSS</text>
 <rect x="712" y="204" width="380" height="8" rx="4" fill="#0B1119" stroke="#0B1119" stroke-width="1"/>
 <rect x="712" y="204" width="4" height="8" rx="4" fill="#A371F7">
-  <animate attributeName="width" values="4;36.48" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  <animate attributeName="width" values="4;33.440000000000005" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
 </rect>
-<text x="1132" y="211" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >9.6%</text>
+<text x="1132" y="211" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >8.8%</text>
 <text x="620" y="237" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#E6EDF3" font-weight="400" >HTML</text>
 <rect x="712" y="230" width="380" height="8" rx="4" fill="#0B1119" stroke="#0B1119" stroke-width="1"/>
 <rect x="712" y="230" width="4" height="8" rx="4" fill="#F778BA">
-  <animate attributeName="width" values="4;20.14" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  <animate attributeName="width" values="4;15.579999999999998" dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
 </rect>
-<text x="1132" y="237" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >5.3%</text>
+<text x="1132" y="237" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >4.1%</text>
 </svg>
