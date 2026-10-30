@@ -127,8 +127,8 @@ export function numbers(d) {
 
   const inner = `
 ${text(PAD, 44, "// what it adds up to", { size: 12, fill: C.accent2 })}
-${text(PAD, 68, "By the numbers", { size: 19, weight: 700, fill: C.text, font: SANS })}
-${text(PAD + 188, 68, "each figure measured in a test or a benchmark, not asserted", { size: 10.5, fill: C.dim })}
+${text(PAD, 68, "The receipts", { size: 19, weight: 700, fill: C.text, font: SANS })}
+${text(PAD + 168, 68, "each figure measured in a test or a benchmark, not asserted", { size: 10.5, fill: C.dim })}
 
 ${headline()}
 
