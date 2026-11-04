@@ -71,7 +71,7 @@ No coordinator to fall over, no single worker to bottleneck on.
 
 <div align="center">
 
-<img src="assets/numbers.svg" alt="Grand Prize at Contata NCR 2026; under 1 ms to re-plan 1,000 tasks; 59% less stressed drawdown; 565+ problems solved; Top 10 of 120+ teams" width="100%"/>
+<img src="assets/numbers.svg" alt="Grand Prize at Contata NCR 2026; under 1 ms to re-plan 1,000 tasks; 59% less stressed drawdown; 566+ problems solved; Top 10 of 120+ teams" width="100%"/>
 
 </div>
 
