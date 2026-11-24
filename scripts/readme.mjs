@@ -46,11 +46,11 @@ ${rows.join("\n")}
 
 </div>
 
-## The year, replayed
+## The year, built
 
 <div align="center">
 
-<img src="assets/trace.svg" alt="Contribution trace: seven weekday lanes, one column per week, playhead sweeping the year" width="100%"/>
+<img src="assets/skyline.svg" alt="The 2026 skyline: one tower per repository, ordered by first push, every storey a layer of that project\u2019s stack" width="100%"/>
 
 </div>
 

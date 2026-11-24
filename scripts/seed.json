@@ -70,7 +70,8 @@
         "React",
         "PostgreSQL"
       ],
-      "repo": "taskflow-pro"
+      "repo": "taskflow-pro",
+      "shipped": "2026-09-27"
     },
     {
       "slug": "araia",
@@ -83,7 +84,8 @@
         "FAISS",
         "AWS"
       ],
-      "repo": "portfolio_diversification"
+      "repo": "portfolio_diversification",
+      "shipped": "2026-04-29"
     },
     {
       "slug": "logs",
@@ -96,7 +98,8 @@
         "Redis",
         "FAISS"
       ],
-      "repo": "log_analyzer"
+      "repo": "log_analyzer",
+      "shipped": "2026-07-24"
     },
     {
       "slug": "fairfix",
@@ -109,7 +112,8 @@
         "Nebius",
         "OCR"
       ],
-      "repo": "fairfix"
+      "repo": "fairfix",
+      "shipped": "2026-10-29"
     },
     {
       "slug": "examgen",
@@ -122,7 +126,8 @@
         "OCR",
         "Groq"
       ],
-      "repo": "ai_exam_generator"
+      "repo": "ai_exam_generator",
+      "shipped": "2026-03-21"
     },
     {
       "slug": "rankradar",
@@ -134,7 +139,8 @@
         "CSS",
         "Netlify"
       ],
-      "repo": "Rank-Radar"
+      "repo": "Rank-Radar",
+      "shipped": "2026-10-14"
     }
   ]
 }

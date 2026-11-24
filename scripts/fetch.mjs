@@ -129,3 +129,17 @@ export async function contributionCalendar(user) {
     return [];
   }
 }
+
+/** First-push date per repository, so the skyline is ordered by real dates. */
+export async function repoDates(user, repos) {
+  const out = {};
+  await Promise.all(
+    repos.map(async (r) => {
+      try {
+        const d = await json(`${GH}/repos/${user}/${r}`, { headers: headers() });
+        out[r] = (d.created_at || "").slice(0, 10);
+      } catch {}
+    })
+  );
+  return out;
+}

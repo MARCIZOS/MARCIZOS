@@ -2,10 +2,10 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { githubStats, leetcodeStats } from "./fetch.mjs";
+import { githubStats, leetcodeStats, repoDates } from "./fetch.mjs";
 import { hero } from "./svg/hero.mjs";
 import { cards, scoreboard } from "./svg/cards.mjs";
-import { trace } from "./svg/trace.mjs";
+import { skyline } from "./svg/skyline.mjs";
 import { links } from "./svg/links.mjs";
 import { numbers } from "./svg/numbers.mjs";
 import { renderReadme } from "./readme.mjs";
@@ -27,10 +27,17 @@ const data = {
 };
 
 if (!OFFLINE) {
+  // Real first-push dates order the skyline; the seed carries the last known
+  // ones so an API hiccup never reshuffles the towers.
+  const dates = await repoDates(GH_USER, seed.projects.map((p) => p.repo));
+  const got = Object.values(dates).filter(Boolean).length;
+  data.projects = seed.projects.map((p) => ({ ...p, shipped: dates[p.repo] || p.shipped || "" }));
+  data.sources.repoDates = got ? `live (${got}/${seed.projects.length})` : "seed";
+
   try {
     const gh = await githubStats(GH_USER);
     data.github = {
-      ...seed.github,
+      ...data.github,
       publicRepos: gh.publicRepos,
       stars: gh.stars,
       contributions: gh.contributions ?? seed.github.contributions,
@@ -60,7 +67,7 @@ if (!OFFLINE) {
 
 mkdirSync(ASSETS, { recursive: true });
 
-const out = [hero(data), scoreboard(data), trace(data), numbers(data), ...links(data), ...cards(data)];
+const out = [hero(data), scoreboard(data), skyline(data), numbers(data), ...links(data), ...cards(data)];
 for (const f of out) {
   writeFileSync(join(ASSETS, f.name), f.svg);
   console.log(`  ${f.name.padEnd(22)} ${f.w}x${f.h}`);
