@@ -1,0 +1,406 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="396" viewBox="0 0 1200 396" role="img">
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#1F2A38" stroke-width="1" opacity="0.35"/>
+  </pattern>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.14"/>
+    <stop offset="60%" stop-color="#2DD4A0" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="dawn" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#58A6FF" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#58A6FF" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="396" rx="14" fill="#0D1117"/>
+<rect width="1200" height="396" rx="14" fill="url(#grid)"/>
+<rect width="1200" height="396" rx="14" fill="url(#fade)"/>
+<rect x="0.5" y="0.5" width="1199" height="395" rx="14" fill="none" stroke="#1F2A38"/>
+
+<text x="56" y="44" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#2DD4A0" font-weight="400" >// the year, built</text>
+<text x="56" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#E6EDF3" font-weight="700" >What I shipped in 2026</text>
+<text x="288" y="68" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#4A5B6E" font-weight="400" >one tower per repository · every storey is a layer of its stack</text>
+<text x="1144" y="68" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#7D8DA1" font-weight="400" text-anchor="end" >Mar → Oct 2026</text>
+
+<rect x="-260" y="90" width="260" height="230" fill="url(#dawn)" opacity="0.5">
+  <animate attributeName="x" values="-260;1200" dur="9s" repeatCount="indefinite"
+    calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.3 1"/>
+</rect>
+<g>
+  <!-- plinth -->
+  <rect x="76.7" y="307.0" width="140" height="13" rx="2" fill="#0B1119" stroke="#1F2A38" stroke-width="1"/>
+
+  <g>
+  <animateTransform attributeName="transform" type="translate" values="0 46.0;0 0"
+    dur="0.75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="83.7" y="274.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="92.66666666666669" y="285.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Node.js</text>
+  <rect x="98.7" y="291.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.382;1" dur="2.8s" fill="freeze"/></rect><rect x="119.5" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="140.3" y="291.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.556;1" dur="2.8s" fill="freeze"/></rect><rect x="161.1" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="181.9" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 79.0;0 0"
+    dur="0.86s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="83.7" y="241.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="92.66666666666669" y="252.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Express</text>
+  <rect x="98.7" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="119.5" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="140.3" y="258.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.469;1" dur="2.8s" fill="freeze"/></rect><rect x="161.1" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="181.9" y="258.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.440;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 112.0;0 0"
+    dur="0.97s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="83.7" y="208.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="92.66666666666669" y="219.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >OCR</text>
+  <rect x="98.7" y="225.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.680;1" dur="2.8s" fill="freeze"/></rect><rect x="119.5" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="140.3" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="161.1" y="225.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.454;1" dur="2.8s" fill="freeze"/></rect><rect x="181.9" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 145.0;0 0"
+    dur="1.08s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="83.7" y="175.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="92.66666666666669" y="186.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Groq</text>
+  <rect x="98.7" y="192.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.733;1" dur="2.8s" fill="freeze"/></rect><rect x="119.5" y="192.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.478;1" dur="2.8s" fill="freeze"/></rect><rect x="140.3" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="161.1" y="192.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.363;1" dur="2.8s" fill="freeze"/></rect><rect x="181.9" y="192.0" width="6" height="7.5" rx="1"
+  fill="#F778BA" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.532;1" dur="2.8s" fill="freeze"/></rect>
+</g>
+
+  <!-- parapet and beacon -->
+  <g>
+    <rect x="78.7" y="164.0" width="136" height="11" rx="2" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+    <rect x="145.8" y="151.0" width="1.8" height="13" fill="#1F2A38"/>
+    <circle cx="146.7" cy="149.0" r="2.6" fill="#F778BA">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="146.66666666666669" y="139" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#F778BA" font-weight="700" text-anchor="middle" letter-spacing="1" >OCR + LLM</text>
+  </g>
+
+  <!-- street level -->
+  <text x="146.66666666666669" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#E6EDF3" font-weight="700" text-anchor="middle" >AI Exam Generator</text>
+  <text x="146.66666666666669" y="363" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#4A5B6E" font-weight="400" text-anchor="middle" letter-spacing="0.9" >Mar 2026</text>
+</g>
+<g>
+  <!-- plinth -->
+  <rect x="258.0" y="307.0" width="140" height="13" rx="2" fill="#0B1119" stroke="#1F2A38" stroke-width="1"/>
+
+  <g>
+  <animateTransform attributeName="transform" type="translate" values="0 46.0;0 0"
+    dur="0.91s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="265.0" y="274.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="274" y="285.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Python</text>
+  <rect x="280.0" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="300.8" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="321.6" y="291.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.535;1" dur="2.8s" fill="freeze"/></rect><rect x="342.4" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="363.2" y="291.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.621;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 79.0;0 0"
+    dur="1.02s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="265.0" y="241.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="274" y="252.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >FastAPI</text>
+  <rect x="280.0" y="258.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.432;1" dur="2.8s" fill="freeze"/></rect><rect x="300.8" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="321.6" y="258.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.618;1" dur="2.8s" fill="freeze"/></rect><rect x="342.4" y="258.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.535;1" dur="2.8s" fill="freeze"/></rect><rect x="363.2" y="258.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.468;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 112.0;0 0"
+    dur="1.13s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="265.0" y="208.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="274" y="219.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >FAISS</text>
+  <rect x="280.0" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="300.8" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="321.6" y="225.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.395;1" dur="2.8s" fill="freeze"/></rect><rect x="342.4" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="363.2" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 145.0;0 0"
+    dur="1.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="265.0" y="175.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="274" y="186.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >AWS</text>
+  <rect x="280.0" y="192.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.386;1" dur="2.8s" fill="freeze"/></rect><rect x="300.8" y="192.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.434;1" dur="2.8s" fill="freeze"/></rect><rect x="321.6" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="342.4" y="192.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.462;1" dur="2.8s" fill="freeze"/></rect><rect x="363.2" y="192.0" width="6" height="7.5" rx="1"
+  fill="#2DD4A0" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.374;1" dur="2.8s" fill="freeze"/></rect>
+</g>
+
+  <!-- parapet and beacon -->
+  <g>
+    <rect x="260.0" y="164.0" width="136" height="11" rx="2" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+    <rect x="327.1" y="151.0" width="1.8" height="13" fill="#1F2A38"/>
+    <circle cx="328.0" cy="149.0" r="2.6" fill="#2DD4A0">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="328" y="139" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#2DD4A0" font-weight="700" text-anchor="middle" letter-spacing="1" >LIVE ON AWS</text>
+  </g>
+
+  <!-- street level -->
+  <text x="328" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#E6EDF3" font-weight="700" text-anchor="middle" >ARAIA</text>
+  <text x="328" y="363" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#4A5B6E" font-weight="400" text-anchor="middle" letter-spacing="0.9" >Apr 2026</text>
+</g>
+<g>
+  <!-- plinth -->
+  <rect x="439.3" y="307.0" width="140" height="13" rx="2" fill="#0B1119" stroke="#1F2A38" stroke-width="1"/>
+
+  <g>
+  <animateTransform attributeName="transform" type="translate" values="0 46.0;0 0"
+    dur="1.07s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="446.3" y="274.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="455.33333333333337" y="285.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Python</text>
+  <rect x="461.3" y="291.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.519;1" dur="2.8s" fill="freeze"/></rect><rect x="482.1" y="291.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.475;1" dur="2.8s" fill="freeze"/></rect><rect x="502.9" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="523.7" y="291.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.325;1" dur="2.8s" fill="freeze"/></rect><rect x="544.5" y="291.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.461;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 79.0;0 0"
+    dur="1.18s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="446.3" y="241.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="455.33333333333337" y="252.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >FastAPI</text>
+  <rect x="461.3" y="258.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.559;1" dur="2.8s" fill="freeze"/></rect><rect x="482.1" y="258.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.535;1" dur="2.8s" fill="freeze"/></rect><rect x="502.9" y="258.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.571;1" dur="2.8s" fill="freeze"/></rect><rect x="523.7" y="258.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.598;1" dur="2.8s" fill="freeze"/></rect><rect x="544.5" y="258.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.650;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 112.0;0 0"
+    dur="1.29s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="446.3" y="208.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="455.33333333333337" y="219.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Redis</text>
+  <rect x="461.3" y="225.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.650;1" dur="2.8s" fill="freeze"/></rect><rect x="482.1" y="225.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.415;1" dur="2.8s" fill="freeze"/></rect><rect x="502.9" y="225.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.563;1" dur="2.8s" fill="freeze"/></rect><rect x="523.7" y="225.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.598;1" dur="2.8s" fill="freeze"/></rect><rect x="544.5" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 145.0;0 0"
+    dur="1.40s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="446.3" y="175.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="455.33333333333337" y="186.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >FAISS</text>
+  <rect x="461.3" y="192.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.576;1" dur="2.8s" fill="freeze"/></rect><rect x="482.1" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="502.9" y="192.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.600;1" dur="2.8s" fill="freeze"/></rect><rect x="523.7" y="192.0" width="6" height="7.5" rx="1"
+  fill="#F0A33E" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.600;1" dur="2.8s" fill="freeze"/></rect><rect x="544.5" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g>
+
+  <!-- parapet and beacon -->
+  <g>
+    <rect x="441.3" y="164.0" width="136" height="11" rx="2" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+    <rect x="508.4" y="151.0" width="1.8" height="13" fill="#1F2A38"/>
+    <circle cx="509.3" cy="149.0" r="2.6" fill="#F0A33E">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="509.33333333333337" y="139" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#F0A33E" font-weight="700" text-anchor="middle" letter-spacing="1" >REDIS STREAMS</text>
+  </g>
+
+  <!-- street level -->
+  <text x="509.33333333333337" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#E6EDF3" font-weight="700" text-anchor="middle" >Log Analyzer &amp; RCA</text>
+  <text x="509.33333333333337" y="363" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#4A5B6E" font-weight="400" text-anchor="middle" letter-spacing="0.9" >Jul 2026</text>
+</g>
+<g>
+  <!-- plinth -->
+  <rect x="620.7" y="307.0" width="140" height="13" rx="2" fill="#0B1119" stroke="#1F2A38" stroke-width="1"/>
+
+  <g>
+  <animateTransform attributeName="transform" type="translate" values="0 46.0;0 0"
+    dur="1.23s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="627.7" y="274.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="636.6666666666667" y="285.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Python</text>
+  <rect x="642.7" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="663.5" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="684.3" y="291.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.326;1" dur="2.8s" fill="freeze"/></rect><rect x="705.1" y="291.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.675;1" dur="2.8s" fill="freeze"/></rect><rect x="725.9" y="291.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.502;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 79.0;0 0"
+    dur="1.34s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="627.7" y="241.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="636.6666666666667" y="252.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >FastAPI</text>
+  <rect x="642.7" y="258.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.397;1" dur="2.8s" fill="freeze"/></rect><rect x="663.5" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="684.3" y="258.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.692;1" dur="2.8s" fill="freeze"/></rect><rect x="705.1" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="725.9" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 112.0;0 0"
+    dur="1.45s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="627.7" y="208.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="636.6666666666667" y="219.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >React</text>
+  <rect x="642.7" y="225.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.358;1" dur="2.8s" fill="freeze"/></rect><rect x="663.5" y="225.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.717;1" dur="2.8s" fill="freeze"/></rect><rect x="684.3" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="705.1" y="225.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.687;1" dur="2.8s" fill="freeze"/></rect><rect x="725.9" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 145.0;0 0"
+    dur="1.56s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="627.7" y="175.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="636.6666666666667" y="186.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >PostgreSQL</text>
+  <rect x="642.7" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="663.5" y="192.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.727;1" dur="2.8s" fill="freeze"/></rect><rect x="684.3" y="192.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.660;1" dur="2.8s" fill="freeze"/></rect><rect x="705.1" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="725.9" y="192.0" width="6" height="7.5" rx="1"
+  fill="#58A6FF" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.542;1" dur="2.8s" fill="freeze"/></rect>
+</g>
+
+  <!-- parapet and beacon -->
+  <g>
+    <rect x="622.7" y="164.0" width="136" height="11" rx="2" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+    <rect x="689.8" y="151.0" width="1.8" height="13" fill="#1F2A38"/>
+    <circle cx="690.7" cy="149.0" r="2.6" fill="#58A6FF">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="690.6666666666667" y="139" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#58A6FF" font-weight="700" text-anchor="middle" letter-spacing="1" >GRAND PRIZE</text>
+  </g>
+
+  <!-- street level -->
+  <text x="690.6666666666667" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#E6EDF3" font-weight="700" text-anchor="middle" >TaskFlow Pro</text>
+  <text x="690.6666666666667" y="363" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#4A5B6E" font-weight="400" text-anchor="middle" letter-spacing="0.9" >Sep 2026</text>
+</g>
+<g>
+  <!-- plinth -->
+  <rect x="802.0" y="307.0" width="140" height="13" rx="2" fill="#0B1119" stroke="#1F2A38" stroke-width="1"/>
+
+  <g>
+  <animateTransform attributeName="transform" type="translate" values="0 46.0;0 0"
+    dur="1.39s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="809.0" y="274.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="818" y="285.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >JavaScript</text>
+  <rect x="824.0" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="844.8" y="291.0" width="6" height="7.5" rx="1"
+  fill="#5BC8E8" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.439;1" dur="2.8s" fill="freeze"/></rect><rect x="865.6" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="886.4" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="907.2" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 79.0;0 0"
+    dur="1.50s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="809.0" y="241.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="818" y="252.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >CSS</text>
+  <rect x="824.0" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="844.8" y="258.0" width="6" height="7.5" rx="1"
+  fill="#5BC8E8" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.551;1" dur="2.8s" fill="freeze"/></rect><rect x="865.6" y="258.0" width="6" height="7.5" rx="1"
+  fill="#5BC8E8" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.338;1" dur="2.8s" fill="freeze"/></rect><rect x="886.4" y="258.0" width="6" height="7.5" rx="1"
+  fill="#5BC8E8" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.562;1" dur="2.8s" fill="freeze"/></rect><rect x="907.2" y="258.0" width="6" height="7.5" rx="1"
+  fill="#5BC8E8" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.668;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 112.0;0 0"
+    dur="1.61s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="809.0" y="208.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="818" y="219.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Netlify</text>
+  <rect x="824.0" y="225.0" width="6" height="7.5" rx="1"
+  fill="#5BC8E8" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.454;1" dur="2.8s" fill="freeze"/></rect><rect x="844.8" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="865.6" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="886.4" y="225.0" width="6" height="7.5" rx="1"
+  fill="#5BC8E8" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.688;1" dur="2.8s" fill="freeze"/></rect><rect x="907.2" y="225.0" width="6" height="7.5" rx="1"
+  fill="#5BC8E8" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.482;1" dur="2.8s" fill="freeze"/></rect>
+</g>
+
+  <!-- parapet and beacon -->
+  <g>
+    <rect x="804.0" y="197.0" width="136" height="11" rx="2" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+    <rect x="871.1" y="184.0" width="1.8" height="13" fill="#1F2A38"/>
+    <circle cx="872.0" cy="182.0" r="2.6" fill="#5BC8E8">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="872" y="172" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#5BC8E8" font-weight="700" text-anchor="middle" letter-spacing="1" >LIVE DEMO</text>
+  </g>
+
+  <!-- street level -->
+  <text x="872" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#E6EDF3" font-weight="700" text-anchor="middle" >Rank Radar</text>
+  <text x="872" y="363" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#4A5B6E" font-weight="400" text-anchor="middle" letter-spacing="0.9" >Oct 2026</text>
+</g>
+<g>
+  <!-- plinth -->
+  <rect x="983.3" y="307.0" width="140" height="13" rx="2" fill="#0B1119" stroke="#1F2A38" stroke-width="1"/>
+
+  <g>
+  <animateTransform attributeName="transform" type="translate" values="0 46.0;0 0"
+    dur="1.55s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="990.3" y="274.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="999.3333333333335" y="285.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Python</text>
+  <rect x="1005.3" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1026.1" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1046.9" y="291.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.450;1" dur="2.8s" fill="freeze"/></rect><rect x="1067.7" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1088.5" y="291.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 79.0;0 0"
+    dur="1.66s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="990.3" y="241.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="999.3333333333335" y="252.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Nemotron</text>
+  <rect x="1005.3" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1026.1" y="258.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.376;1" dur="2.8s" fill="freeze"/></rect><rect x="1046.9" y="258.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1067.7" y="258.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.340;1" dur="2.8s" fill="freeze"/></rect><rect x="1088.5" y="258.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.558;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 112.0;0 0"
+    dur="1.77s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="990.3" y="208.0" width="126" height="33" fill="#0E1620" stroke="#1F2A38" stroke-width="1"/>
+  <text x="999.3333333333335" y="219.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >Nebius</text>
+  <rect x="1005.3" y="225.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.465;1" dur="2.8s" fill="freeze"/></rect><rect x="1026.1" y="225.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.669;1" dur="2.8s" fill="freeze"/></rect><rect x="1046.9" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1067.7" y="225.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1088.5" y="225.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.720;1" dur="2.8s" fill="freeze"/></rect>
+</g><g>
+  <animateTransform attributeName="transform" type="translate" values="0 145.0;0 0"
+    dur="1.88s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.85 0.3 1"/>
+  <rect x="990.3" y="175.0" width="126" height="33" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+  <text x="999.3333333333335" y="186.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#7D8DA1" font-weight="400" letter-spacing="0.4" >OCR</text>
+  <rect x="1005.3" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1026.1" y="192.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.638;1" dur="2.8s" fill="freeze"/></rect><rect x="1046.9" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1067.7" y="192.0" width="6" height="7.5" rx="1"
+  fill="#0B1119" opacity="0.85"></rect><rect x="1088.5" y="192.0" width="6" height="7.5" rx="1"
+  fill="#A371F7" opacity="0.9"><animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.656;1" dur="2.8s" fill="freeze"/></rect>
+</g>
+
+  <!-- parapet and beacon -->
+  <g>
+    <rect x="985.3" y="164.0" width="136" height="11" rx="2" fill="#111822" stroke="#1F2A38" stroke-width="1"/>
+    <rect x="1052.4" y="151.0" width="1.8" height="13" fill="#1F2A38"/>
+    <circle cx="1053.3" cy="149.0" r="2.6" fill="#A371F7">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1053.3333333333335" y="139" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#A371F7" font-weight="700" text-anchor="middle" letter-spacing="1" >NVIDIA x NEBIUS</text>
+  </g>
+
+  <!-- street level -->
+  <text x="1053.3333333333335" y="346" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#E6EDF3" font-weight="700" text-anchor="middle" >FairFix</text>
+  <text x="1053.3333333333335" y="363" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#4A5B6E" font-weight="400" text-anchor="middle" letter-spacing="0.9" >Oct 2026</text>
+</g>
+<path d="M46 320 H1154" stroke="#2DD4A0" stroke-width="1.4" opacity="0.5"/>
+<path d="M46 323.5 H1154" stroke="#1F2A38" stroke-width="1"/>
+</svg>
